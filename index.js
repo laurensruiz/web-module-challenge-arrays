@@ -177,15 +177,14 @@ Use the filterByWord function below to do the following:
 */
 let filteredArray = []
 function filterByWord(arr, a){
-  for (let i = 0 ; i < arr.length-1; i++) {
+  for (let i = 0 ; i < arr.length; i++) {
     if (arr[i].includes(a)) {
-    filteredArray.push(arr[i])
+    filteredArray.push(arr[i]);
     }
   }
-  return filteredArray
+  return filteredArray;
 }
 
-console.log(filteredArray)
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
